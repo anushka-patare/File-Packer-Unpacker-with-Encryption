@@ -1,0 +1,21 @@
+
+import java.util.*;
+import java.io.*;
+
+class program593
+{
+    public static void main(String A[])
+    {
+        String str = "Marvellous Infosystems Pune";
+
+        System.out.println("Data :"+str);
+        System.out.println("Length :"+str.length());
+
+        str = str + " ";
+        str = str + " ";
+        str = str + " ";
+
+        System.out.println("Data :"+str);
+        System.out.println("Length :"+str.length());
+    }
+}
