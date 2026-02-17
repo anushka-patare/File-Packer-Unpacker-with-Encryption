@@ -1,0 +1,21 @@
+import java.util.*;
+import java.io.*;
+
+class program595
+{
+    public static void main(String A[])
+    {
+        String str = "A.txt 10";
+
+        System.out.println("Data :"+str);
+        System.out.println("Length :"+str.length());
+
+        for(int i=str.length(); i<100 ;i++)
+        {
+           str = str + " ";
+        }
+        
+        System.out.println("Data :"+str);
+        System.out.println("Length :"+str.length());
+    }
+}
